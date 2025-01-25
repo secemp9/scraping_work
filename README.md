@@ -1,9 +1,14 @@
 # scraping_work
 
-Went through multiple iteration.
+stack used:
+- selenium (Python)
+- playwright (Python)
+- puppeteer (Nodejs)
+- ajax/curl (Nodejs/Python)
 
-Did selenium first, then playright, then puppeteer. Lastly stopped at ajax/curl request replay (faster).
 
-Currently the file get_ids.py is the first one I had to run with cli arguments.
+Goal of all my scraping work is to aim to always try to do things without any proxies or account.
+Do UX and UI exploration, act as an user. Look at network requests. Try to replay ajax/curl request.
+Study payloads and look at js files (deobfuscated or not)
 
-Then proxy_json.py using paid proxies (free proxies and tor ip didn't work...).
+Each directories correspond to the website I worked on, with the scripts used for data scraping.
